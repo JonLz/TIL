@@ -8,7 +8,7 @@ dd + O
 
 The only problem I have is it presumes you want to begin editing right away as it leaves you in insert mode.
 
-This solution feels just erases line content and makes no assumptions about putting you right into insert mode:
+This solution erases line content and makes no assumptions about putting you right into insert mode:
 
 ```
 0D
