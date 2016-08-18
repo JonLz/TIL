@@ -20,7 +20,7 @@ unless title.length > 0
 end
 
 filename = title.join('-')
-full_path = directory + '/' + filename
+full_path = directory + '/' + filename + '.md'
 
 if File.file?(full_path)
 	puts 'File already exists, bailing'
